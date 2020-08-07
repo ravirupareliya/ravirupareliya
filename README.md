@@ -1,6 +1,9 @@
-### Hi there 👋
+### Ravi Rupareliya
 
-Follow me on [Instagram](https://instagram.com) for programming tips and news.
+- 🔭 Currently working on React Native | Android | Actions on Google
+- 🌱 I’m currently learning Alexa | Voice | Flutter
+- 📫 How to reach me: [ravirupareliya.com](https://ravirupareliya.com)
+- Follow me on [Instagram](https://www.instagram.com/ravi.rupareliya/) for programming tips and news.
 
 <p align="center">
   <img align="center" src="https://instagram.fraj1-1.fna.fbcdn.net/v/t51.2885-15/e35/s150x150/116875545_589014135117880_1603472412541026467_n.jpg?_nc_ht=instagram.fraj1-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=WQIg7s-WxlYAX_aNlnY&oh=566464d9c3c5f5957a6e2e7efa584070&oe=5F56822B">
