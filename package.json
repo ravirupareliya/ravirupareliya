@@ -1,0 +1,29 @@
+{
+  "name": "ravirupareliya",
+  "version": "0.0.1",
+  "description": "Instagram feed generate",
+  "main": "feed.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravirupareliya/ravirupareliya.git"
+  },
+  "author": "Ravi Rupareliya",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ravirupareliya/ravirupareliya/issues"
+  },
+  "homepage": "https://github.com/ravirupareliya/ravirupareliya#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "process": "latest",
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {
+    "jshint": "^2.11.1",
+    "mocha": "^8.1.1",
+    "parcel-bundler": "^1.12.4"
+  }
+}
