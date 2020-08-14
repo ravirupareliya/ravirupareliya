@@ -95,12 +95,11 @@ feedList.forEach((siteUrl) => {
   promiseArray.push(new Promise((resolve, reject) => {
     axios.get(siteUrl)
       .then(response => {
-        console.log(response.data);
         const responsePosts = response.data.graphql.user.edge_owner_to_timeline_media.edges;
         const posts = responsePosts
           .map((item) => {
             return {
-              url: item.node.thumbnail_resources[3].src
+              url: item.node.thumbnail_resources[0].src
             };
           });
         resolve(posts);
@@ -143,7 +142,6 @@ Promise.allSettled(promiseArray).then((results) => {
   results.forEach((result, index) => {
     if (result.status === "fulfilled") {
       // Succeeded
-      core.info(runnerNameArray[index] + ' runner succeeded. Post count: ' + result.value.length);
       postsArray.push(...result.value);
     } else {
       jobFailFlag = true;
@@ -162,13 +160,13 @@ Promise.allSettled(promiseArray).then((results) => {
         // Default template: - [$title]($url)
         let startTag = '', endTag = ''
         if (index === 0 || index === 3 || index === 6 || index === 9) {
-          startTag = '<p align=\"center\">'
+          startTag = '<p align=\"center\">\n'
         }
         if (index === 2 || index === 5 || index === 8 || index === 11) {
-          endTag = '</p>'
+          endTag = '</p>\n'
         }
 
-        return acc + startTag + `<img align="center" src=${cur.url} />` + endTag;
+        return acc + startTag + `<img align="center" src=${cur.url} />\n` + endTag;
       }, '');
       const newReadme = buildReadme(readmeData, postListMarkdown);
       // if there's change in readme file update it
