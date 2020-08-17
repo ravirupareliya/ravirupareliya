@@ -78,115 +78,60 @@ const commitReadme = async () => {
 const TOTAL_POST_COUNT = 12;
 // Readme path, default: ./README.md
 const README_FILE_PATH = './README.md';
-// const GITHUB_TOKEN = core.getInput('gh_token');
 
-// core.setSecret(GITHUB_TOKEN);
-
-const promiseArray = []; // Runner
-const runnerNameArray = []; // To show the error/success message
 let postsArray = []; // Array to store posts
 let jobFailFlag = false; // Job status flag
 
-// Reading feed list from the workflow input
-let feedList = ['https://www.instagram.com/ravi.rupareliya/?__a=1'];
+let siteUrl = 'https://www.instagram.com/ravi.rupareliya/?__a=1';
 
-feedList.forEach((siteUrl) => {
-  runnerNameArray.push(siteUrl);
-  promiseArray.push(new Promise((resolve, reject) => {
-    axios.get(siteUrl)
-      .then(response => {
-        const responsePosts = response.data.graphql.user.edge_owner_to_timeline_media.edges;
-        const posts = responsePosts
-          .map((item) => {
-            return {
-              url: item.node.thumbnail_resources[0].src
-            };
-          });
-        resolve(posts);
-      })
-      .catch(error => {
-        reject(error);
+axios.get(siteUrl)
+  .then(response => {
+    const responsePosts = response.data.graphql.user.edge_owner_to_timeline_media.edges;
+    postsArray = responsePosts
+      .map((item) => {
+        return {
+          url: item.node.thumbnail_resources[0].src
+        };
       });
+    postsArray = postsArray.slice(0, TOTAL_POST_COUNT);
+    if (postsArray.length > 0) {
+      try {
+        const readmeData = fs.readFileSync(README_FILE_PATH, "utf8");
+        const postListMarkdown = postsArray.reduce((acc, cur, index) => {
+          // Default template: - [$title]($url)
+          let startTag = '', endTag = ''
+          if (index === 0 || index === 3 || index === 6 || index === 9) {
+            startTag = '<p align=\"center\">\n'
+          }
+          if (index === 2 || index === 5 || index === 8 || index === 11) {
+            endTag = '</p>\n'
+          }
 
-    // parser.parseURL(siteUrl).then((data) => {
-    //   if (!data.items) {
-    //     reject("Cannot read response->item");
-    //   } else {
-    //     const responsePosts = data.items;
-    //     const posts = responsePosts
-    //       .map((item) => {
-    //         // Validating keys to avoid errors
-    //         if (!item.pubDate) {
-    //           reject("Cannot read response->item->pubDate");
-    //         }
-    //         if (!item.title) {
-    //           reject("Cannot read response->item->title");
-    //         }
-    //         if (!item.link) {
-    //           reject("Cannot read response->item->link");
-    //         }
-    //         return {
-    //           title: item.title,
-    //           url: item.link,
-    //           date: new Date(item.pubDate)
-    //         };
-    //       });
-    //     resolve(posts);
-    //   }
-    // }).catch(reject);
-  }));
-});
-
-// Processing the generated promises
-Promise.allSettled(promiseArray).then((results) => {
-  results.forEach((result, index) => {
-    if (result.status === "fulfilled") {
-      // Succeeded
-      postsArray.push(...result.value);
-    } else {
-      jobFailFlag = true;
-      // Rejected
-      core.error(runnerNameArray[index] + ' runner failed, please verify the configuration. Error:');
-      core.error(result.reason);
-    }
-  });
-}).finally(() => {
-  // Slicing with the max count
-  postsArray = postsArray.slice(0, TOTAL_POST_COUNT);
-  if (postsArray.length > 0) {
-    try {
-      const readmeData = fs.readFileSync(README_FILE_PATH, "utf8");
-      const postListMarkdown = postsArray.reduce((acc, cur, index) => {
-        // Default template: - [$title]($url)
-        let startTag = '', endTag = ''
-        if (index === 0 || index === 3 || index === 6 || index === 9) {
-          startTag = '<p align=\"center\">\n'
+          return acc + startTag + `<img align="center" src=${cur.url} />\n` + endTag;
+        }, '');
+        const newReadme = buildReadme(readmeData, postListMarkdown);
+        // if there's change in readme file update it
+        if (newReadme !== readmeData) {
+          core.info('Writing to ' + README_FILE_PATH);
+          fs.writeFileSync(README_FILE_PATH, newReadme);
+          if (!process.env.TEST_MODE) {
+            // noinspection JSIgnoredPromiseFromCall
+            commitReadme();
+          }
+        } else {
+          core.info('No change detected, skipping');
+          process.exit(0);
         }
-        if (index === 2 || index === 5 || index === 8 || index === 11) {
-          endTag = '</p>\n'
-        }
-
-        return acc + startTag + `<img align="center" src=${cur.url} />\n` + endTag;
-      }, '');
-      const newReadme = buildReadme(readmeData, postListMarkdown);
-      // if there's change in readme file update it
-      if (newReadme !== readmeData) {
-        core.info('Writing to ' + README_FILE_PATH);
-        fs.writeFileSync(README_FILE_PATH, newReadme);
-        if (!process.env.TEST_MODE) {
-          // noinspection JSIgnoredPromiseFromCall
-          commitReadme();
-        }
-      } else {
-        core.info('No change detected, skipping');
-        process.exit(0);
+      } catch (e) {
+        core.error(e);
+        process.exit(1);
       }
-    } catch (e) {
-      core.error(e);
-      process.exit(1);
+    } else {
+      core.info("0 blog posts fetched");
+      process.exit(jobFailFlag ? 1 : 0);
     }
-  } else {
-    core.info("0 blog posts fetched");
-    process.exit(jobFailFlag ? 1 : 0);
-  }
-});
+  })
+  .catch(error => {
+    core.error(' runner failed, please verify the configuration. Error:');
+    core.error(error);
+  });
