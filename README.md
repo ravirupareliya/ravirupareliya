@@ -5,9 +5,8 @@
 - 📫 How to reach me: [ravirupareliya.com](https://ravirupareliya.com)
 - Follow me on [Instagram](https://www.instagram.com/ravi.rupareliya/) for programming tips and news.
 
-<!--
 <a href="https://www.instagram.com/ravi.rupareliya/" target="_blank">
-<!-- insta-feed:START-->
+<!-- insta-feed:START
 <p align="center">
 <img align="center" src=https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/e35/s150x150/117801930_118850686597100_8281062695853943386_n.jpg?_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=oWeYsYb6xCIAX8xHzUR&oh=2b48d55d18b3c7814e310d2986ffa44c&oe=5F682940 />
 <img align="center" src=https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/e35/s150x150/117867292_2771207523148452_3241414180657952736_n.jpg?_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_ohc=qdwNYidMiCAAX9vR014&oh=d8508055dd8d0c42414ff2517cc1d531&oe=5F67C1A1 />
@@ -28,21 +27,6 @@
 <img align="center" src=https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/e35/s150x150/117259823_1001307370304891_6502717509961734850_n.jpg?_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=111&_nc_ohc=ozenfBl7W7gAX8Bl11o&oh=96515d43afa47d340b743ed53ded09fb&oe=5F665463 />
 <img align="center" src=https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/e35/s150x150/116875545_589014135117880_1603472412541026467_n.jpg?_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=104&_nc_ohc=58t--Y68uMYAX_83i2S&oh=52b7cd5b336d98ea489adf1980f9cdfa&oe=5F66542B />
 </p>
-
+-->
 <!-- insta-feed:END-->
 </a>
--->
-<!--
-**ravirupareliya/ravirupareliya** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
