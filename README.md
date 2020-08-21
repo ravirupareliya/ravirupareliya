@@ -5,6 +5,7 @@
 - 📫 How to reach me: [ravirupareliya.com](https://ravirupareliya.com)
 - Follow me on [Instagram](https://www.instagram.com/ravi.rupareliya/) for programming tips and news.
 
+<!--
 <a href="https://www.instagram.com/ravi.rupareliya/" target="_blank">
 <!-- insta-feed:START-->
 <p align="center">
@@ -30,7 +31,7 @@
 
 <!-- insta-feed:END-->
 </a>
-
+-->
 <!--
 **ravirupareliya/ravirupareliya** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
