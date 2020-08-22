@@ -8,8 +8,8 @@
 <a href="https://www.instagram.com/ravi.rupareliya/" target="_blank">
 <!-- insta-feed:START-->
 <p align="center">
-<img align="center" src=https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/e35/s150x150/117801930_118850686597100_8281062695853943386_n.jpg?_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=oWeYsYb6xCIAX8xHzUR&oh=2b48d55d18b3c7814e310d2986ffa44c&oe=5F682940 />
-<img align="center" src=https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/e35/s150x150/117867292_2771207523148452_3241414180657952736_n.jpg?_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_ohc=qdwNYidMiCAAX9vR014&oh=d8508055dd8d0c42414ff2517cc1d531&oe=5F67C1A1 />
+<img align="center" src=https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/e35/s150x150/117801930_118850686597100_8281062695853943386_n.jpg?_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=LQoyLeTO500AX9VQUv0&oh=5653e42db7bdfb9befd83acd085c201c&oe=5F6C1DC0 />
+<img align="center" src=https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/e35/s150x150/117867292_2771207523148452_3241414180657952736_n.jpg?_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_ohc=N8Dod6AcRnYAX8gq1Ju&oh=0e10595c5e36954a58b24565e525c350&oe=5F6BB621 />
 <img align="center" src=https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/e35/s150x150/117931678_793632161399712_7562658963115355616_n.jpg?_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_ohc=kdYnzYnE14UAX_w8roH&oh=b029cdcafb0c8550f70672986a2b987f&oe=5F69C137 />
 </p>
 <p align="center">
@@ -19,12 +19,12 @@
 </p>
 <p align="center">
 <img align="center" src=https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/e35/s150x150/117288606_1432624290459842_4050672627473038302_n.jpg?_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=102&_nc_ohc=JvYVlYeVOyEAX-83UYP&oh=06df78d82c424d699c762f984f9d9b4b&oe=5F69710F />
-<img align="center" src=https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/e35/s150x150/117309611_594067937926129_8782024436396678820_n.jpg?_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=101&_nc_ohc=nsAnsUl1_GUAX8eBbLd&oh=aebf4394917d0bc4ccafcefc744dbf02&oe=5F6869BF />
-<img align="center" src=https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/e35/s150x150/117127743_658078131727257_4070559447880632257_n.jpg?_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=109&_nc_ohc=LBRAaiDaCHsAX_c5v6k&oh=da1e69c4a494aa85f78511ff4832d91d&oe=5F679ED1 />
+<img align="center" src=https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/e35/s150x150/117309611_594067937926129_8782024436396678820_n.jpg?_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=101&_nc_ohc=nsAnsUl1_GUAX8eBbLd&oh=e6fd4b6ba36169ece447c90a90a1489f&oe=5F6C5E3F />
+<img align="center" src=https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/e35/s150x150/117127743_658078131727257_4070559447880632257_n.jpg?_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=109&_nc_ohc=LBRAaiDaCHsAX_c5v6k&oh=32e1f5b28af8d8b232fafc761d984e5c&oe=5F6B9351 />
 </p>
 <p align="center">
 <img align="center" src=https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/e35/s150x150/117172054_780830466021649_2450924399071798468_n.jpg?_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=101&_nc_ohc=Pj0O7q0tD80AX8qauF0&oh=dc1e2cf0b3e68c2ea0fa0690de23d0eb&oe=5F6B0B94 />
-<img align="center" src=https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/e35/s150x150/117259823_1001307370304891_6502717509961734850_n.jpg?_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=111&_nc_ohc=ozenfBl7W7gAX8Bl11o&oh=5d89e04728f59aca28c07b91ebdca56f&oe=5F6A48E3 />
+<img align="center" src=https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/e35/s150x150/117259823_1001307370304891_6502717509961734850_n.jpg?_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=111&_nc_ohc=UEJOxrwWNSUAX_4LdRt&oh=c4428d3c7366f1d84aef165641f1ea93&oe=5F6A48E3 />
 <img align="center" src=https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/e35/s150x150/116875545_589014135117880_1603472412541026467_n.jpg?_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=104&_nc_ohc=58t--Y68uMYAX_83i2S&oh=1b2a632a4829c2ae027cd0b213e5f58f&oe=5F6A48AB />
 </p>
 
