@@ -30,3 +30,7 @@
 
 <!-- insta-feed:END-->
 </a>
+
+
+
+![States on GitHub](https://github-readme-stats.vercel.app/api?username=ravirupareliya&show_icons=true&hide_border=true)
