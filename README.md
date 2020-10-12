@@ -8,18 +8,18 @@
 <a href="https://www.instagram.com/ravi.rupareliya/" target="_blank">
 <!-- insta-feed:START-->
 <p align="center">
-<img align="center" src=https://scontent-atl3-1.cdninstagram.com/v/t51.2885-15/e35/s150x150/119738360_171946631175661_8308691936849414239_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_cat=101&_nc_ohc=sfbgF9NQ8DYAX-8HmJp&_nc_tp=15&oh=1d678600cf527bd48776584123d21c42&oe=5FAB40DD />
-<img align="center" src=https://scontent-atl3-1.cdninstagram.com/v/t51.2885-15/e35/s150x150/119471335_3325605627530848_5783608158621298966_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_cat=104&_nc_ohc=zPTNKJc03NgAX8x81NT&_nc_tp=15&oh=13995e5294ec2382f8fd9087f4369c0d&oe=5FABBD81 />
-<img align="center" src=https://scontent-atl3-1.cdninstagram.com/v/t51.2885-15/e35/s150x150/118735524_155532192843864_2438830621806811548_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_cat=100&_nc_ohc=bWewb-mOzyQAX-twtPn&_nc_tp=15&oh=cb1f6e170aee267305de2cbcc226b561&oe=5FAD7E6E />
+<img align="center" src=https://scontent-atl3-1.cdninstagram.com/v/t51.2885-15/e35/s150x150/119738360_171946631175661_8308691936849414239_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_cat=101&_nc_ohc=sfbgF9NQ8DYAX-8HmJp&_nc_tp=15&oh=d86f042fa70d4f26a1f9f9c9af659f92&oe=5FAF355D />
+<img align="center" src=https://scontent-atl3-1.cdninstagram.com/v/t51.2885-15/e35/s150x150/119471335_3325605627530848_5783608158621298966_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_cat=104&_nc_ohc=zPTNKJc03NgAX8x81NT&_nc_tp=15&oh=ef83d70152c21fa2602362bb13baebcb&oe=5FAFB201 />
+<img align="center" src=https://scontent-atl3-1.cdninstagram.com/v/t51.2885-15/e35/s150x150/118735524_155532192843864_2438830621806811548_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_cat=100&_nc_ohc=CrQQElA4YyIAX9MH2fq&_nc_tp=15&oh=18672573800ccde300d916e8ddf81cfd&oe=5FAD7E6E />
 </p>
 <p align="center">
 <img align="center" src=https://scontent-atl3-1.cdninstagram.com/v/t51.2885-15/e35/s150x150/118358282_793232521422249_4194198869826492121_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_cat=109&_nc_ohc=PQdlgo5zJzUAX8cC9u3&_nc_tp=15&oh=feb57d2b88f64993512e5b1e484e714e&oe=5FAC4F3C />
 <img align="center" src=https://scontent-atl3-1.cdninstagram.com/v/t51.2885-15/e35/s150x150/118083536_653646245259286_4437462516989252087_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_cat=110&_nc_ohc=Ht0hgPjy6MsAX-FtgxW&_nc_tp=15&oh=2fd7c998108b1d603205a7ede266fba0&oe=5FACBEDC />
-<img align="center" src=https://scontent-atl3-1.cdninstagram.com/v/t51.2885-15/e35/s150x150/118175330_604822603490734_6882222491011634628_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_cat=110&_nc_ohc=wtg3l5FyV-AAX_BGHrP&_nc_tp=15&oh=b3a8a5e65a7ed42910d38d59c186c833&oe=5FAAF3F7 />
+<img align="center" src=https://scontent-atl3-1.cdninstagram.com/v/t51.2885-15/e35/s150x150/118175330_604822603490734_6882222491011634628_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_cat=110&_nc_ohc=wtg3l5FyV-AAX_BGHrP&_nc_tp=15&oh=f11097459931548828196932ef83df83&oe=5FAEE877 />
 </p>
 <p align="center">
-<img align="center" src=https://scontent-atl3-1.cdninstagram.com/v/t51.2885-15/e35/s150x150/117801930_118850686597100_8281062695853943386_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_cat=108&_nc_ohc=1eo5MxvlU80AX_aurWw&_nc_tp=15&oh=483fab3d98aa4aee443a5901edd982ac&oe=5FAB65C0 />
-<img align="center" src=https://scontent-atl3-1.cdninstagram.com/v/t51.2885-15/e35/s150x150/117867292_2771207523148452_3241414180657952736_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_cat=100&_nc_ohc=kUyCr5XeimcAX8C5elN&_nc_tp=15&oh=c64b9e3a4cffea5910d314c1795f1b6e&oe=5FAAFE21 />
+<img align="center" src=https://scontent-atl3-1.cdninstagram.com/v/t51.2885-15/e35/s150x150/117801930_118850686597100_8281062695853943386_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_cat=108&_nc_ohc=sKhRy6QGWXoAX9a2hf7&_nc_tp=15&oh=64b68a51decd0d1a1bfa15f42f94d52b&oe=5FAF5A40 />
+<img align="center" src=https://scontent-atl3-1.cdninstagram.com/v/t51.2885-15/e35/s150x150/117867292_2771207523148452_3241414180657952736_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_cat=100&_nc_ohc=pHkyJw6SHPkAX-DpeA_&_nc_tp=15&oh=62f60110dc346229e163a87d7a4da853&oe=5FAEF2A1 />
 <img align="center" src=https://scontent-atl3-1.cdninstagram.com/v/t51.2885-15/e35/s150x150/117931678_793632161399712_7562658963115355616_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_cat=100&_nc_ohc=UELolOmkbN4AX_jq8IQ&_nc_tp=15&oh=03e2b3fa5ba739a575b436ab9b73a8f3&oe=5FACFDB7 />
 </p>
 <p align="center">
