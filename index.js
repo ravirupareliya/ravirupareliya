@@ -86,18 +86,18 @@ let siteUrl = 'https://www.instagram.com/ravi.rupareliya/?__a=1';
 
 axios.get(siteUrl)
   .then(response => {
-    const responsePosts = response?.data?.graphql?.user?.edge_owner_to_timeline_media?.edges;
+    const responsePosts = response.data.graphql.user.edge_owner_to_timeline_media.edges;
     postsArray = responsePosts
       .map((item) => {
         return {
-          url: item?.node?.thumbnail_resources[0]?.src
+          url: item.node.thumbnail_resources[0].src
         };
       });
-    postsArray = postsArray?.slice(0, TOTAL_POST_COUNT);
+    postsArray = postsArray.slice(0, TOTAL_POST_COUNT);
     if (postsArray.length > 0) {
       try {
         const readmeData = fs.readFileSync(README_FILE_PATH, "utf8");
-        const postListMarkdown = postsArray?.reduce((acc, cur, index) => {
+        const postListMarkdown = postsArray.reduce((acc, cur, index) => {
           // Default template: - [$title]($url)
           let startTag = '', endTag = ''
           if (index === 0 || index === 3 || index === 6 || index === 9) {
