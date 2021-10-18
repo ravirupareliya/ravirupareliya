@@ -86,6 +86,7 @@ let siteUrl = 'https://www.instagram.com/ravi.rupareliya/?__a=1';
 
 axios.get(siteUrl)
   .then(response => {
+    console.log('response ' , response.data)
     const responsePosts = response.data.graphql.user.edge_owner_to_timeline_media.edges;
     postsArray = responsePosts
       .map((item) => {
