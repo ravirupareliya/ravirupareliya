@@ -82,7 +82,7 @@ const README_FILE_PATH = './README.md';
 let postsArray = []; // Array to store posts
 let jobFailFlag = false; // Job status flag
 
-let siteUrl = 'https://www.instagram.com/ravi.rupareliya/?__a=1';
+let siteUrl = 'https://www.instagram.com/ravi.rupareliya/?__a=1&__d=dis';
 
 axios.get(siteUrl)
   .then(response => {
